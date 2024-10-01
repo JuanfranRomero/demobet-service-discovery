@@ -1,9 +1,15 @@
+spring:
+
+  # Service name in Eureka
+  application:
+    name: service-discovery
+
 # Eureka Server
 eureka:
-  server:
-    renewalPercentThreshold: 0.33
   instance:
     hostname: localhost
+  server:
+    renewalPercentThreshold: 0.33
   client:  # Not a client, don't register with yourself
     registerWithEureka: false
     fetchRegistry: false
