@@ -16,4 +16,4 @@ eureka:
 
 # Tomcat port
 server:
-  port: 9999
+  port: 8761
